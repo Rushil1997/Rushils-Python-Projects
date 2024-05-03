@@ -24,9 +24,4 @@ class Contact:
         self.contact_list.pop(delete_contact - 1)
         print(self.contact_list)
 
-    def change_contact(self):
-        print(self.contact_list)
-
-        change_name = input("What is the name of the contact you want to change?  ")
-        self.contact[0]["Name"] = change_name
-        print(self.contact_list)
+ 
